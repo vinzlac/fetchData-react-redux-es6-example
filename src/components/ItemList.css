@@ -1,0 +1,19 @@
+.item {
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  font-family: "Source Sans Pro";
+  color: #555;
+}
+
+.item h2 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.item > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
